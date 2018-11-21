@@ -1,0 +1,21 @@
+<!--
+    This is our angular view template. You can access all the properties of your view model on the vm variable.
+    Rules of AngularJS apply, you can check out the theme documentation at https://material.angularjs.org/latest
+-->
+<div layout="column">
+    <md-card>
+        <md-card-title>
+        <md-card-title-text> 
+            <span class="md-headline">Test</span>
+        </md-card-title-text>
+        </md-card-title>
+        <md-card-content>
+            {{vm.test}} 
+            <p>
+                {{vm.answer}}
+            </p>
+            <pre>{{vm.pongs}}</pre>
+            <md-button ng-click="vm.ping()">Ping</md-button>
+        </md-card-content>
+    </md-card>
+</div> 
