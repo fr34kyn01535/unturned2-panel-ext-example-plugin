@@ -1,11 +1,11 @@
 {
   "name": "unturned2-panel-ext-example-plugin",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-  }, 
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/fr34kyn01535/unturned2-panel-ext-example-plugin"
@@ -17,6 +17,11 @@
   "homepage": "https://github.com/fr34kyn01535/unturned2-panel-ext-example-plugin#readme",
   "license": "MIT",
   "dependencies": {
-    "unturned2-panel": "1.0.0"
+    "unturned2-panel": "^1.0.6"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.2",
+    "@types/node": "^10.12.9",
+    "@types/socket.io": "^2.1.4"
   }
 }

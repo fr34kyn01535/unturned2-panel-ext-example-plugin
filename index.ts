@@ -1,5 +1,5 @@
 import {  Plugin,   WebSocketConnection,  WebSocketServer,  Router,  View,  Request,  Response } from "unturned2-panel"
-import * as path from "path"
+import * as path from "path";
 
 export default class ExamplePlugin implements Plugin {
     get name () { return "fr34kyn01535.ExamplePlugin"; }
