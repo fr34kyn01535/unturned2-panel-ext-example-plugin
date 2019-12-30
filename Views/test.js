@@ -4,7 +4,7 @@
     vm.test = "IT WORKS and your session profile username is "+$rootScope.profile.userName;
 
     vm.answer = "s";
-    $http.get("/test/ping").then(function(response){
+    $http.get("/fr34kyn01535.exampleplugin/ping").then(function(response){
         vm.answer = response.data;
     });
 
@@ -13,7 +13,8 @@
     }
     vm.pongs = "";
     eventing.on("pongsocket",function(){
-        vm.pongs+="+";
+        vm.pongs+="/";
+        console.log("pongsocket");
         $scope.$apply();
     });
-}] 
+}]

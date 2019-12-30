@@ -1,27 +1,22 @@
 {
-  "name": "unturned2-plugin-example",
+  "name": "unturned2-panel-ext-example-plugin",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  }, 
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fr34kyn01535/unturned2-plugin-example.git"
+    "url": "git+https://github.com/fr34kyn01535/unturned2-panel-ext-example-plugin"
   },
   "author": "Sven Mawby",
-  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/fr34kyn01535/unturned2-plugin-example/issues"
+    "url": "https://github.com/fr34kyn01535/unturned2-panel-ext-example-plugin/issues"
   },
-  "homepage": "https://github.com/fr34kyn01535/unturned2-plugin-example#readme",
+  "homepage": "https://github.com/fr34kyn01535/unturned2-panel-ext-example-plugin#readme",
+  "license": "MIT",
   "dependencies": {
-    "unturned2-api": "^1.0.0"
-  },
-  "devDependencies": {
-    "gulp": "^3.9.1",
-    "gulp-typescript": "^5.0.0-alpha.3",
-    "typescript": "^3.1.6"
+    "unturned2-panel": "1.0.0"
   }
 }
